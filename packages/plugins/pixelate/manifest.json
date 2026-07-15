@@ -1,0 +1,17 @@
+{
+  "name": "pixelate",
+  "label": "Pixelate",
+  "description": "Fills each blockSize x blockSize square with its top-left pixel",
+  "capabilities": ["read-pixels", "write-pixels"],
+  "params": [
+    {
+      "name": "blockSize",
+      "type": "int",
+      "min": 2,
+      "max": 64,
+      "step": 1,
+      "default": 8,
+      "description": "Edge length of each output block, in pixels"
+    }
+  ]
+}

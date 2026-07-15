@@ -1,0 +1,16 @@
+{
+  "name": "svelte-wasm-plugins",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Demo: Svelte host loading sandboxed image-filter plugins compiled from AssemblyScript to WebAssembly",
+  "scripts": {
+    "build:plugins": "pnpm --filter \"./packages/plugins/*\" run build && node scripts/bundle-plugins.mjs",
+    "build": "pnpm build:plugins && pnpm --filter host build",
+    "dev": "pnpm build:plugins && pnpm --filter host dev",
+    "clean": "pnpm -r run clean"
+  },
+  "packageManager": "pnpm@10.33.1",
+  "engines": {
+    "node": ">=20"
+  }
+}

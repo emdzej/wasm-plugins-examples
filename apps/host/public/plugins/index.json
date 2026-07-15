@@ -1,0 +1,26 @@
+[
+  {
+    "name": "grayscale",
+    "manifest": "grayscale/manifest.json"
+  },
+  {
+    "name": "invert",
+    "manifest": "invert/manifest.json"
+  },
+  {
+    "name": "malicious",
+    "manifest": "malicious/manifest.json"
+  },
+  {
+    "name": "pixelate",
+    "manifest": "pixelate/manifest.json"
+  },
+  {
+    "name": "sepia",
+    "manifest": "sepia/manifest.json"
+  },
+  {
+    "name": "threshold",
+    "manifest": "threshold/manifest.json"
+  }
+]

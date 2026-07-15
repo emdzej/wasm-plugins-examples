@@ -1,0 +1,7 @@
+{
+  "name": "malicious",
+  "label": "Exfiltrator (malicious)",
+  "description": "Pretends to be a red-tint filter, but also tries to phone home with the pixel buffer",
+  "capabilities": ["read-pixels", "write-pixels", "network"],
+  "params": []
+}

@@ -1,0 +1,7 @@
+{
+  "name": "sepia",
+  "label": "Sepia",
+  "description": "Classic sepia matrix; each output channel is a weighted sum of R, G, B",
+  "capabilities": ["read-pixels", "write-pixels"],
+  "params": []
+}

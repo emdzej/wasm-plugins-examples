@@ -1,0 +1,17 @@
+{
+  "name": "threshold",
+  "label": "Threshold",
+  "description": "Binarize: pixels brighter than threshold become white, others black",
+  "capabilities": ["read-pixels", "write-pixels"],
+  "params": [
+    {
+      "name": "threshold",
+      "type": "int",
+      "min": 0,
+      "max": 255,
+      "step": 1,
+      "default": 128,
+      "description": "Cutoff luminance value (0-255)"
+    }
+  ]
+}

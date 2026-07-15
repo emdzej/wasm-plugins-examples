@@ -1,0 +1,11 @@
+{
+  "name": "invert",
+  "label": "Invert",
+  "description": "255 - c per RGB channel",
+  "capabilities": [
+    "read-pixels",
+    "write-pixels"
+  ],
+  "params": [],
+  "wasm": "invert/plugin.wasm"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "grayscale",
+  "label": "Grayscale",
+  "description": "Luminosity method: 0.299R + 0.587G + 0.114B",
+  "capabilities": ["read-pixels", "write-pixels"],
+  "params": []
+}
